@@ -1,0 +1,29 @@
+<html lang="en">
+    <head>
+        <title>My Site</title>
+        <link rel="stylesheet" href="index_style.css">
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="school project.html">School Project</a>
+            <div id="dropdown">
+                <button id="dropbtn">Python Projects</button>
+                <div id="dropdown-content">
+                    <a href="text editor.html">Text Editor</a>
+                    <a href="encrypt.html">Symmetrical Encryption<br>Programme</a>
+                </div>
+            </div>
+            <a href="requests.html">Programming Requests</a> <br>
+            <h1 id="title2"><b>ENCRYPTION PROGRAMME</b></h1>
+        </div>
+        <div id="block">
+            <p>
+                this is my code for a simple symmetrical encryption programme.<br><br>
+                <code id="code">
+                    import random <br>MODE = input("mode&nbsp;&nbsp;&nbsp;&nbsp;") <br>TEXT = input("text&nbsp;&nbsp;&nbsp;&nbsp;") <br>PASSWORD = input("password&nbsp;&nbsp;&nbsp;&nbsp;") <br> <br> <br>if MODE == "e": <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;random.seed(PASSWORD) <br>&nbsp;&nbsp;&nbsp;&nbsp;output = "" <br>&nbsp;&nbsp;&nbsp;&nbsp;for letter in TEXT: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output += chr(ord(letter) + random.randint(1000, 10000)) <br>&nbsp;&nbsp;&nbsp;&nbsp;TEXT = output <br> <br>else: <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;random.seed(PASSWORD) <br>&nbsp;&nbsp;&nbsp;&nbsp;output = "" <br>&nbsp;&nbsp;&nbsp;&nbsp;for letter in TEXT: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output += chr(ord(letter) - random.randint(1000, 10000)) <br>&nbsp;&nbsp;&nbsp;&nbsp;TEXT = output <br> <br> <br>print(TEXT)
+                </code>
+            </p>
+        </div>
+    </body>
+</html>
