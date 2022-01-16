@@ -204,3 +204,12 @@ button[type="submit"]:hover {
     pointer-events: none;
   }
 }
+
+button {
+  padding: 5;
+  background-color: rgb(111, 111, 111);
+  font-size: 25px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
