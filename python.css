@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(213, 213, 213);
+}
+
+html {
+    margin: 5;
+    padding: 0;
+}
+
+#title {
+    background-color: rgb(72, 72, 72);
+    text-align: center;
+    padding: 5px;
+    font-size: 60px;
+    font-family: "papyrus";
+}
+
+p {
+    padding: 5px;
+    font-size: 25px;
+}
+
+#hedder {
+    text-align: center;
+    font-size: 30px;
+    font-family: "papyrus";
+}
+
+#block {
+    background-color: rgb(111, 111, 111);
+    padding: 5;
+}
